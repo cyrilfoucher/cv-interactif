@@ -18,7 +18,7 @@ En reconversion depuis mai 2026 après plusieurs années dans l'industrie : usin
 - Frontend : React, TypeScript, JavaScript, Tailwind CSS, HTML, CSS
 - Backend : Node.js, Express, API REST, Prisma, Zod
 - Bases de données : PostgreSQL, pgvector, MongoDB
-- IA : API Mistral, embeddings, recherche sémantique, RAG, réponses structurées en JSON
+- IA : Mistral AI (API), embeddings, recherche sémantique, RAG, réponses structurées en JSON
 - Outils : Git, GitHub, Docker, GitHub Actions, Vitest, Render
 
 ## Projets
@@ -40,9 +40,10 @@ Base de connaissances pour développeurs, assistée par l'IA. En ligne, testable
 
 ### Autour du Monde (juillet à septembre 2026)
 
-Premier projet full stack : application de voyage avec boutique de guides. Ce projet lui a fait découvrir la structure d'une application complète, et comprendre concrètement comment le frontend, l'API et la base de données fonctionnent ensemble.
+Premier projet full stack : application de voyage avec boutique de guides. Découverte de la structure d'une application complète et compréhension concrète du fonctionnement ensemble du frontend, de l'API et de la base de données.
 
 - Site : https://autour-du-monde.onrender.com
+- Code : https://github.com/cyrilfoucher/first-fullstack
 - Fonctionnalités : authentification JWT, panier, paiement Stripe, espace administrateur, upload d'images avec Cloudinary, emails transactionnels
 - Ajouts ultérieurs : Docker, tests et intégration continue
 - Difficulté résolue : après la mise en ligne sur l'offre gratuite de Render, les emails ne partaient plus, alors qu'ils fonctionnaient en local : l'envoi par SMTP était bloqué en production. Il a refactorisé tout le module d'envoi pour passer par l'API de Brevo, qui envoie les emails par de simples requêtes HTTP.
@@ -63,22 +64,23 @@ Tournage sur tours-fraiseurs à commande numérique 2, 3 et 4 axes : programmati
 
 ## Formation
 
-- Développement web en autodidacte depuis mai 2026, en plus de son travail : environ 30 heures par semaine au début, puis une vingtaine d'heures par semaine. De mai à juillet, apprentissage de HTML, CSS et JavaScript, puis un premier projet full stack en juillet et un second en septembre
+- Développement web en autodidacte depuis mai 2026, sur le temps libre. De mai à juillet, apprentissage de HTML, CSS et JavaScript, puis un premier projet full stack en juillet et un second en septembre
+- Développement assisté par IA avec Claude Code : en cours d'apprentissage. Ce site est le premier projet codé de cette façon
 - Niveau BTS MUC, Lycée du Castella (2015)
 - Bac STG Mercatique, Lycée du Castella (2013)
 
 ## Langues et divers
 
-- Anglais : score de 110 au test Duolingo
+- Anglais : bonne compréhension écrite, suffisante pour la documentation technique ; compréhension orale en progrès
 - Permis B
-- Centres d'intérêt : voyages, musculation, basketball, sneakers, jeux vidéo, perroquets, voitures, histoire, en particulier la Seconde Guerre mondiale
+- Centres d'intérêt : voyages, musculation, basketball, jeux vidéo, histoire
 
 ## Points forts
 
-- L'usinage lui a donné le goût de la programmation, ainsi que la rigueur et la minutie : sur une machine à commande numérique, une erreur de programme se paie en pièce ratée ou machine hors service avec de grosses réparations.
-- L'aéronautique lui a appris à suivre des procédés stricts, où chaque étape est tracée et vérifiée.
-- Il a appris le développement web seul, le soir, en plus de son travail : deux mois pour apprendre les bases, puis deux applications full stack mises en ligne en quatre mois.
-- Il ne lâche pas : quand il bloque, il cherche, teste, et continue jusqu'à comprendre.
+- Le goût de la programmation, la rigueur et la minutie, hérités de l'usinage : sur une machine à commande numérique, une erreur de programme se paie en pièce ratée, voire en machine hors service et en lourdes réparations.
+- L'habitude des procédés stricts, acquise dans l'aéronautique, où chaque étape est tracée et vérifiée.
+- Un apprentissage du développement web en autodidacte, le soir, en plus d'un emploi à temps plein : deux mois pour apprendre les bases, puis deux applications full stack mises en ligne en quatre mois.
+- De la persévérance : face à un blocage, chercher, tester, et continuer jusqu'à comprendre.
 
 ## Questions fréquentes
 
