@@ -70,6 +70,10 @@ describe("buildSystemPrompt", () => {
     expect(prompt).toContain("Ne calculez ni ne déduisez rien");
   });
 
+  it("interdit les mots de niveau absents du profil", () => {
+    expect(prompt).toContain("N'utilisez pas de mot de niveau");
+  });
+
   it("impose la phrase du profil pour la durée d'apprentissage", () => {
     expect(prompt).toContain("deux mois de bases, puis deux applications en quatre mois");
   });
