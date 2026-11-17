@@ -18,7 +18,7 @@ export async function streamAnswer(
   messages: ChatMessage[],
 ): Promise<ReadableStream<Uint8Array>> {
   const apiKey = process.env.MISTRAL_API_KEY;
-  if (!apiKey) throw new Error("MISTRAL_API_KEY est absente de .env.local");
+  if (!apiKey) throw new Error("MISTRAL_API_KEY est absente de .env");
 
   const response = await fetch(MISTRAL_URL, {
     method: "POST",
