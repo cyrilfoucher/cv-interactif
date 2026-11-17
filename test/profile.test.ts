@@ -8,9 +8,8 @@ import {
   parseProfile,
   splitHeading,
   toPublicProfile,
-} from "./profile";
+} from "@/lib/profile";
 
-// Petit Markdown d'exemple : le résultat attendu est connu à l'avance.
 const SAMPLE = `# Cyril Foucher
 ## En bref
 Un paragraphe de présentation.

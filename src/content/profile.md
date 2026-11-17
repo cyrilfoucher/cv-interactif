@@ -79,7 +79,7 @@ Tournage sur tours-fraiseurs à commande numérique 2, 3 et 4 axes : programmati
 
 - Le goût de la programmation, la rigueur et la minutie, hérités de l'usinage : sur une machine à commande numérique, une erreur de programme se paie en pièce ratée, voire en machine hors service et en lourdes réparations.
 - L'habitude des procédés stricts, acquise dans l'aéronautique, où chaque étape est tracée et vérifiée.
-- Un apprentissage du développement web en autodidacte, le soir, en plus d'un emploi à temps plein : deux mois pour apprendre les bases, puis deux applications full stack mises en ligne en quatre mois.
+- Un apprentissage du développement web en autodidacte, le soir, en plus d'un emploi à temps plein : deux mois pour apprendre les bases, puis deux applications full stack mises en ligne en quatre mois, soit environ six mois au total.
 - De la persévérance : face à un blocage, chercher, tester, et continuer jusqu'à comprendre.
 
 ## Questions fréquentes
