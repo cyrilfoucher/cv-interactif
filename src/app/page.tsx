@@ -1,3 +1,4 @@
+import AskStation from "@/components/AskStation";
 import Cartouche from "@/components/Cartouche";
 import ExperienceList from "@/components/ExperienceList";
 import InfoList from "@/components/InfoList";
@@ -11,7 +12,6 @@ export default function Home() {
   // Profil sans ce qui est réservé à l'assistant (questions fréquentes, difficultés résolues)
   const profile = toPublicProfile(loadProfile());
 
-  // Puces d'une section, cherchée par son titre dans profile.md
   function itemsOf(title: string): Item[] {
     const section = profile.sections.find((s) => s.title === title);
     if (!section) throw new Error(`profile.md : la section « ${title} » est introuvable.`);
@@ -21,6 +21,10 @@ export default function Home() {
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-col gap-12 p-4 sm:p-8">
       <Cartouche data={getCartouche(profile)} />
+
+      <Section operation="000" title="Poste de questions">
+        <AskStation />
+      </Section>
 
       <Section operation="010" title="Projets">
         <div className="grid gap-6 md:grid-cols-2">
