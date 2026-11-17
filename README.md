@@ -2,6 +2,10 @@
 
 Site CV en ligne destiné aux recruteurs. La page présente le parcours de Cyril, et un assistant IA répond aux questions des recruteurs, uniquement à partir de ce parcours.
 
+**En ligne : https://cv-interactif-ten.vercel.app**
+
+Premier projet de Cyril développé avec un agent de code (Claude Code) : règles du projet dans `CLAUDE.md`, plan validé avant chaque fonctionnalité, relecture et test de chaque modification.
+
 Le design évoque un plan technique d'usinage, en référence au premier métier de Cyril : fond graphite quadrillé, panneaux à angles droits, sections numérotées comme des opérations (« OP 010 · PROJETS »).
 
 ## Fonctionnalités
@@ -148,4 +152,3 @@ Penser à recharger la page entre deux séries : l'historique d'une conversation
 3. Fixer une limite de dépense mensuelle dans la console Mistral.
 4. Pousser sur la branche principale, puis tester une question sur le site en ligne.
 
-Point de vigilance à la première mise en ligne : `loadProfile` lit `profile.md` avec le système de fichiers, et il faut s'assurer que le fichier est bien embarqué dans la fonction de la route.
