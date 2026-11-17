@@ -1,6 +1,5 @@
 import type { Item } from "@/lib/profile";
 
-// Liste de puces dans un panneau (Formation, Points forts, Langues et divers).
 // Affiche le texte complet de chaque puce : une phrase comme « Il ne lâche pas : … »
 // ne doit pas être coupée en étiquette et valeur.
 export default function InfoList({ items }: { items: Item[] }) {

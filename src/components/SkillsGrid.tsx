@@ -1,6 +1,5 @@
 import type { Item } from "@/lib/profile";
 
-// Grille des compétences : une case par catégorie (Frontend, Backend…).
 export default function SkillsGrid({ items }: { items: Item[] }) {
   return (
     <dl className="grid gap-4 md:grid-cols-2">

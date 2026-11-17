@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
-/* Palette « fiche d'atelier » : chaque couleur devient une classe Tailwind
-   (bg-graphite, bg-panel, border-line, text-ink, text-ink-2, text-ink-3,
-   text-accent, bg-accent, hover:bg-accent-hover). */
+/* Chaque couleur de la palette devient une classe Tailwind (bg-panel, text-ink, text-accent…). */
 @theme inline {
   --color-graphite: #17191c;
   --color-grid: #2e3238;
@@ -17,7 +15,6 @@
   --font-mono: var(--font-plex-mono);
 }
 
-/* Fond graphite quadrillé comme du papier technique : une ligne tous les 32 px. */
 body {
   background-color: #17191c;
   background-image:
@@ -28,7 +25,6 @@ body {
   font-family: var(--font-plex-sans), sans-serif;
 }
 
-/* Aucun arrondi ni ombre nulle part : angles droits partout. */
 *,
 *::before,
 *::after {

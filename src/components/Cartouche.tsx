@@ -3,10 +3,8 @@ import type { Cartouche as CartoucheData } from "@/lib/profile";
 import Button from "./Button";
 import ExternalLink from "./ExternalLink";
 
-// Ligne du tableau de droite : une étiquette (dt) et sa valeur (dd).
 const rowClass = "grid grid-cols-[7rem_1fr] gap-3 border-b border-line p-4 last:border-b-0";
 
-// En-tête en forme de cartouche de plan : présentation à gauche, tableau à droite.
 export default function Cartouche({ data }: { data: CartoucheData }) {
   return (
     <header className="grid border border-line bg-panel lg:grid-cols-[1fr_26rem]">

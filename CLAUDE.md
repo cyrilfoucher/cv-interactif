@@ -65,3 +65,9 @@ Le site évoque un plan technique d'usinage, en référence au premier métier d
 - Écris du code simple, lisible par un développeur junior : pas de cas que le projet n'utilise pas, pas de code générique, des regex courtes et commentées
 - Avant de créer ou modifier un fichier, explique en quelques phrases ce que fait le code, et chaque notion que Cyril n'a peut-être jamais vue, avec un exemple
 - Cyril écrit lui-même la logique, dans `src/lib`. Tu ne modifies jamais ces fichiers sans qu'il le demande : tu peux les relire et lui signaler les erreurs. Toi, tu t'occupes des composants, du design, de la configuration et des tests
+
+## Commentaires
+
+- Pas de commentaire qui répète ce que fait le code.
+- Un commentaire seulement pour expliquer un choix non évident, une contrainte technique ou une protection de sécurité.
+- En français, une ou deux lignes maximum.

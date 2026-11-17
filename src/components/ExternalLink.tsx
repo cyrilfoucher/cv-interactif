@@ -5,7 +5,6 @@ type ExternalLinkProps = {
   children: ReactNode;
 };
 
-// Lien orange. Un site (http…) s'ouvre dans un nouvel onglet ; un mailto: ouvre la messagerie.
 export default function ExternalLink({ href, children }: ExternalLinkProps) {
   const isWebsite = href.startsWith("http");
 

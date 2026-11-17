@@ -1,6 +1,5 @@
 import type { Job } from "@/lib/profile";
 
-// Parcours professionnel : un panneau par poste.
 export default function ExperienceList({ jobs }: { jobs: Job[] }) {
   return (
     <div className="flex flex-col gap-6">
