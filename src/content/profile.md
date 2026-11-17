@@ -15,11 +15,11 @@ En reconversion depuis mai 2026 après plusieurs années dans l'industrie : usin
 
 ## Compétences
 
-- Frontend : React, TypeScript, JavaScript, Tailwind CSS, HTML, CSS
+- Frontend : React, Next.js (découvert avec ce CV, utilisé pour ce site), TypeScript, JavaScript, Tailwind CSS, HTML, CSS
 - Backend : Node.js, Express, API REST, Prisma, Zod
 - Bases de données : PostgreSQL, pgvector, MongoDB
 - IA : Mistral AI (API), embeddings, recherche sémantique, RAG, réponses structurées en JSON
-- Outils : Git, GitHub, Docker, GitHub Actions, Vitest, Render
+- Outils : Git, GitHub, Docker, GitHub Actions, Vitest, Render, Vercel
 
 ## Projets
 
